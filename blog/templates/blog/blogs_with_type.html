@@ -1,0 +1,12 @@
+{% extends 'blog/blog_list.html'%}
+{% load staticfiles %}
+# 标题
+{% block title%}
+{{blog_type.type_name}}
+{% endblock %}
+
+# 内容
+{% block blog_list_title%}
+分类：{{blog_type.type_name}}&nbsp &nbsp
+<a href="{% url 'blog_list'%}">查看全部博客</a>
+{% endblock %}

@@ -1,0 +1,95 @@
+ul.blog-types{
+    list-style-type:none;
+}
+div.blog.h3{
+    margin-top:0.5em;
+}
+div.blog:not(:last-child){
+    margin-bottom:2em;
+    padding-bottom:1em;
+    border-bottom:1px solid #eee;
+}
+div.blog p.blog-info{
+    margin-bottom:0;
+}
+//博客分页
+div.paginator{
+    text-align:center;
+}
+//博客内容
+div.blog-detail{
+    margin-top:5px;
+    padding-bottom: 5px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+div.blog-detail h2{
+    text-align:center;
+}
+h2{
+    text-align:center;
+}
+
+ul.blog-info-description{
+    list-style-type:none;
+    text-align:center;
+}
+ul.blog-info-description li{
+    display:inline-block;
+    margin-top:5px;
+    text-align:center;
+}
+div.blog-content{
+    text-align:center;
+    text-indent:2em;
+}
+//下一页
+div.blog-more{
+    text-align:center;
+    margin-left: 0.2em;
+}
+div.blog-more ul li{
+    list-style-type:none;
+    float:left;
+}
+//评论
+div.comment{
+    position: absolute;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+}
+div.comment h3{
+    margin-top: 0;
+}
+div.django-ckeditor-widget{
+    width: 100%;
+}
+
+div.comment{
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+}
+div.reply{
+    margin-left: 2em;
+}
+div#reply_content_container {
+    border: 1px solid #d1d1d1;
+    border-bottom: none;
+    background-color: #f8f8f8;
+    overflow: hidden;
+    padding: 1em 1em 0.5em;
+}
+p#reply_title {
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 0.5em;
+}
+div.likes{
+    color:#337ab7;
+    cursor:pointer;
+    display:inline-block;
+    margin-left:0.3em;
+}
+div.likes .active{
+    color:#f22;
+}
